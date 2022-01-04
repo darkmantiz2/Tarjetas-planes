@@ -1,0 +1,158 @@
+:root {
+  --black: #373737;
+  --primary: #ff8e3c;
+  --white: #ffffff;
+  --grey: #848199;
+  --red: #fa513a;
+  --grey-2: #a3a3a3;
+  --bg: #f5f5fa;
+  --headline2: 600 1.75rem/normal Poppins;
+  --headline3: 600 1.25rem/1.375rem Poppins;
+  --button: 400 0.875rem/1rem Poppins;
+  --headline1: 600 3.5rem/normal Poppins;
+  --body1-regular: 400 1rem/1.5rem Poppins;
+  --body1-bold: 700 1rem/1.5rem Poppins;
+  --body2-bold: 700 0.875rem/1.5rem Poppins;
+  --body2-regular: 400 0.875rem/1.5rem Poppins;
+  --caption-regular: 400 0.75rem/1rem Poppins;
+  --caption-bold: 600 0.75rem/1rem Poppins;
+
+}
+
+/*BODDY*/
+
+body {
+  color: var(--white);
+  background-color: var(--primary);
+  font: var(--headline2);
+  background: var(--bg);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container {
+  color: black;
+}
+
+
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1260px;
+  width: 100%;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.card-month {
+  font-size: 20px;
+  color: #c5c5c5;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-orange {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  max-width: 334px;
+  width: 100%;
+  padding-left: 34px;
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: orange;
+}
+
+
+.card {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  max-width: 334px;
+  width: 100%;
+  padding-left: 34px;
+  border-radius: 20px;
+  margin-right: 20px;
+
+}
+
+.card-price {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 90px;
+  font-size: 34px;
+}
+
+
+.card-plan {
+  margin: 0;
+  padding-bottom: 18px;
+  padding-top: 84px;
+}
+
+.card-description {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.card-item1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.card-item2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.card-item3 {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.card-button {
+  margin-left: 50px;
+  margin-bottom: 24px;
+  padding: 14px 37px 14px 37px;
+  background-color: #ffa50030;
+  border-radius: 20px;
+}
+
+.card-button-orange {
+  margin-left: 50px;
+  margin-bottom: 24px;
+  padding: 14px 37px 14px 37px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 20px;
+  
+}
+
+
+.container {
+  color: black;
+}
+
+
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1260px;
+  width: 100%;
+}
+
+.card-month {
+  font-size: 20px;
+  color: #c5c5c5;
+}
