@@ -44,6 +44,8 @@ body {
   width: 100%;
   background-color: white;
   border-radius: 16px;
+  font-family: arial;
+  font-weight: bold;
 }
 
 .card-month {
@@ -69,6 +71,8 @@ body {
   border-radius: 20px;
   margin-right: 20px;
   background-color: orange;
+  font-size: medium;
+
 }
 
 
@@ -83,6 +87,7 @@ body {
   padding-left: 34px;
   border-radius: 20px;
   margin-right: 20px;
+  font-size: medium;
 
 }
 
@@ -97,7 +102,13 @@ body {
 .card-plan {
   margin: 0;
   padding-bottom: 18px;
-  padding-top: 84px;
+  padding-top: 28px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.card-icon{
+  width: 5%;
 }
 
 .card-description {
@@ -121,20 +132,32 @@ body {
 }
 
 .card-button {
-  margin-left: 50px;
-  margin-bottom: 24px;
+ width: 100%;
   padding: 14px 37px 14px 37px;
   background-color: #ffa50030;
   border-radius: 20px;
+  border: none;
+  color: orange;
+  font-weight: bolder;
+
 }
 
 .card-button-orange {
-  margin-left: 50px;
-  margin-bottom: 24px;
+  width: 100%;
   padding: 14px 37px 14px 37px;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: black;
   border-radius: 20px;
-  
+  color: var(--white);
+  border: none;
+}
+
+.card-label{
+  background-color: rgba(255, 255, 255, 0.801);
+  margin-top: 20px;
+  margin-left: 130px;
+  padding: 4px 14px;
+  border-radius: 10px;
+  font-size: small;
 }
 
 
