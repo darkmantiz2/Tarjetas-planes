@@ -26,6 +26,8 @@ body {
   background-color: var(--primary);
   font: var(--headline2);
   background: var(--bg);
+  font-style: italic;
+  font-weight: bold;
 }
 
 .container {
@@ -36,7 +38,6 @@ body {
 
 .container-card {
   display: flex;
-  margin-top: 100px;
   justify-content: center;
   align-items: center;
   max-width: 1260px;
@@ -48,10 +49,8 @@ body {
 }
 
 .card-month {
-  font-size: 16px;
-  font-weight: 100;
-  color: black;
-  
+  font-size: 20px;
+  color: #c5c5c5;
 }
 
 .cards {
@@ -61,10 +60,8 @@ body {
 }
 
 .card-orange {
-  background-color: var(--primary);
+  background-color: orange;
   font-size: medium;
-  transform: translateY(-36px);
-  box-shadow: 0px 17px 12px 0px var(--grey-2);
 }
 
 
@@ -73,19 +70,19 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-size: 18px;
   width: 334px;
   padding:0 34px 34px;
   border-radius: 20px;
   margin-right: 20px;
   font-size: medium;
   box-sizing: border-box;
-  position: relative;
 }
 
 .card-price {
   margin: 0;
   padding-bottom: 20px;
-  padding-top: 50px;
+  padding-top: 90px;
   font-size: 34px;
 }
 
@@ -93,6 +90,7 @@ body {
 .card-plan {
   margin: 0;
   padding-bottom: 18px;
+  padding-top: 28px;
   font-size: xx-large;
   font-weight: bold;
 }
@@ -119,7 +117,6 @@ body {
 .card-item3 {
   margin: 0;
   padding-bottom: 50px;
-  opacity: 0.3;
 }
 
 .card-button {
@@ -128,36 +125,28 @@ body {
   background-color: #ffa50030;
   border-radius: 20px;
   border: none;
-  color: var(--primary);
+  color: orange;
   font-weight: bolder;
-  cursor: pointer;
+
 }
 
 .card-button-orange {
   width: 100%;
   padding: 14px 37px 14px 37px;
-  background-color: var(--black);
+  background-color: black;
   border-radius: 20px;
   color: var(--white);
   border: none;
-  cursor: pointer;
-  font-weight:bolder;
 }
 
 .card-label{
   background-color: rgba(255, 255, 255, 0.801);
-  padding: 8px 14px;
+  margin-top: 20px;
+  margin-left: 130px;
+  padding: 4px 14px 10px;
   border-radius: 10px;
   font-size: small;
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 800;
-  font-style: normal;
-  position: absolute;
-  top: 10px;
-  right: 10px;
 }
-
 
 
 .container {
@@ -174,3 +163,7 @@ body {
   width: 100%;
 }
 
+.card-month {
+  font-size: 20px;
+  color: #c5c5c5;
+}

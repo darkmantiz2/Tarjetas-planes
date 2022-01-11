@@ -48,10 +48,8 @@ body {
 }
 
 .card-month {
-  font-size: 16px;
-  font-weight: 100;
-  color: black;
-  
+  font-size: 20px;
+  color: #c5c5c5;
 }
 
 .cards {
@@ -119,7 +117,6 @@ body {
 .card-item3 {
   margin: 0;
   padding-bottom: 50px;
-  opacity: 0.3;
 }
 
 .card-button {
@@ -136,7 +133,7 @@ body {
 .card-button-orange {
   width: 100%;
   padding: 14px 37px 14px 37px;
-  background-color: var(--black);
+  background-color: black;
   border-radius: 20px;
   color: var(--white);
   border: none;
@@ -174,3 +171,7 @@ body {
   width: 100%;
 }
 
+.card-month {
+  font-size: 20px;
+  color: #c5c5c5;
+}
